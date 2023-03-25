@@ -27,6 +27,7 @@ const getAllGenresAPI = async () => {
 router.get("/", async (req, res) => {
   try {
     const getGenres = await getAllGenresAPI(); //find on API
+    console.log(getGenres);
 
     return res.status(200).json(getGenres);
   } catch (error) {
