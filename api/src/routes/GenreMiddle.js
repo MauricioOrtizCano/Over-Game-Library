@@ -16,7 +16,7 @@ const getAllGenresAPI = async () => {
     const genre = {
       id: g.id,
       name: g.name,
-      //   games: g.games.map((vg) => vg.name),
+      games: g.games.map((vg) => vg.name),
     };
     return genre;
   });
@@ -27,7 +27,7 @@ const getAllGenresAPI = async () => {
 router.get("/", async (req, res) => {
   try {
     const getGenres = await getAllGenresAPI(); //find on API
-    console.log(getGenres);
+    //console.log(getGenres);
 
     return res.status(200).json(getGenres);
   } catch (error) {

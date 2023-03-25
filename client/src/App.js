@@ -6,7 +6,7 @@ import DetailVideogame from "./components/DetailVideogame/DetailVideogame";
 import CreateGame from "./components/CreateGame/CreateGame";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:3001/";
+axios.defaults.baseURL = "https://over-game-library-production.up.railway.app/";
 
 function App() {
   return (
