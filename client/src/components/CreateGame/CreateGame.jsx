@@ -159,7 +159,7 @@ const CreateGame = () => {
       inputs.released = Date.now();
     }
     console.log(inputs.genres);
-    axios.post("http://localhost:3001/videogames", inputs);
+    axios.post("/videogames", inputs);
     //dispatch(createVideogame(inputs))
 
     setInputs({
