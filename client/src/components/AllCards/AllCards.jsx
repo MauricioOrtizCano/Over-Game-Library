@@ -20,8 +20,8 @@ const AllCards = () => {
   let filters = videogamesFiltered;
 
   useEffect(() => {
-    dispatch(getVideogames());
     dispatch(getGenres());
+    dispatch(getVideogames());
     filters = videogames;
   }, [dispatch]);
 
