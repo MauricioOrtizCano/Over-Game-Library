@@ -1,0 +1,10 @@
+.supreme_container {
+  display: flex;
+  margin: 10px;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

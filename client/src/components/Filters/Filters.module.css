@@ -1,0 +1,89 @@
+.container_filters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+}
+
+/* .options {
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #008d4d;
+  width: 150px;
+  height: 25px;
+} */
+
+.container_filter_by_genre {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.bygenre_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-right: 12px;
+  background-color: #5df3af;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  transition: 2s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nameGenre {
+  text-align: left;
+  color: #000;
+  font-weight: 600;
+}
+
+p {
+  color: aliceblue;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+label {
+  color: aliceblue;
+  float: left;
+  width: 100%;
+}
+
+.unit_select {
+  margin-top: 55px;
+  margin-bottom: 55px;
+  width: 100%;
+}
+
+.input_style {
+  width: 20px;
+  height: 15px;
+  float: left;
+  background-color: #008d4d;
+  color: white;
+}
+
+button {
+  background: #5df3af;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+  transition: 3s;
+}
+
+button:hover {
+  background: #a0ffd4;
+  padding: 13px;
+}
