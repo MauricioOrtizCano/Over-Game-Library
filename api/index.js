@@ -39,8 +39,8 @@ function genresToDB() {
 }
 
 // Syncing all the models at once.
-conn.sync({ force: true }).then(() => {
-  genresToDB();
+conn.sync({ force: true }).then(async () => {
+  await genresToDB();
   server.listen(PORT, () => {
     console.log(`Listening at ${PORT} port`); // eslint-disable-line no-console
   });
