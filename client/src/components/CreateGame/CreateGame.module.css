@@ -194,7 +194,8 @@
   /* position: relative;
   right: 15%*/
   max-width: 95%;
-  max-height: 70%;
+  max-height: 95%;
+  right: 15%;
 }
 
 .back_tohome {
