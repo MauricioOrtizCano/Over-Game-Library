@@ -192,10 +192,9 @@
 
 .assassins_creed {
   /* position: relative;
-  width: 95%;
-  */
-  height: 70%;
-  right: 25%;
+  right: 15%*/
+  max-width: 95%;
+  max-height: 70%;
 }
 
 .back_tohome {
