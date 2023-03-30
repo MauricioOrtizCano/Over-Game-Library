@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  max-height: 95px;
   gap: 500px;
   background-color: #008d4e1c;
   padding: 20px;
